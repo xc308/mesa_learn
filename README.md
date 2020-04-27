@@ -6,3 +6,21 @@
 - first need to intall pipenv: python3 -m pipenv (*ref: https://stackoverflow.com/questions/46391721/pipenv-command-not-found)
 - then type: pipenv install mesa
 - run: pipenv shell (* to activate the virtual environment)
+
+
+### Model setting up
+- set two core classes: one for the overall model, the other for agents
+  - **model class**: 
+        1. holds model-level attributes, manages the agents and generally handels the global level of model;
+        2. each instantiation of the model class will be a specific model run
+  - **agent class**: each model will contain multiple agents, all of which are instantiations of the agent class. 
+        1. each agent has only one variable -- the amount of wealth it currently has;
+        2. each agent also has a unique identifier (a name) stored in 'unique_id' variable. 
+        
+        
+        
+        
+- both the model and agent classes are child classes of Mesa's generic 'Model' and 'Agent' classes. 
+
+
+- 
