@@ -7,6 +7,13 @@
 - then type: pipenv install mesa
 - run: pipenv shell (* to activate the virtual environment)
 
+### Link with Github
+- create a repo on Github
+- in terminal, mkdir mesa , cd mesa, touch readme.md
+- within mesa wd, type: jupyter notebook 
+- when jupyter notebook webpage pop up, on the top right-hand side click new, then choose python3 to open up a new notebook
+- rename of the notebook first
+
 
 ### Model setting up
 - set two core classes: one for the overall model, the other for agents
